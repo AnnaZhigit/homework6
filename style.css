@@ -2,6 +2,7 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -11,28 +12,30 @@ body {
   background-repeat: no-repeat;
   background-position: right top;  
 }
+
 .menu {
   margin-top: 60px;
   margin-bottom: 0;
 }
-.menu li {
+
+.menu .menu-item {
   font-size: 17px;
   font-family: "Franklin Gothic Medium";
   color: rgb(157, 166, 181);
   display: inline;
   margin: 0 12px; 
 }
+
+.menu .menu-item .menu-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 main {
   margin-bottom: 145px;
   padding-top: 60px;
 }
-img { position: absolute;
-  right: 0;
-  top:0;
-  z-index: -1;
-  width: 66%;
-  max-width: 666px;
-}
+
 h1 {
   font-size: 25px;
   font-family: "Franklin Gothic Medium";
@@ -42,6 +45,7 @@ h1 {
   margin-left: 100px;
   margin-top: 0;  
 }
+
 .text {
   font-size: 13px;
   font-family: "Franklin Gothic Medium";
@@ -52,6 +56,7 @@ h1 {
   margin-left: 100px;
   max-width: 470px;
 }
+
 footer {
   font-size: 12px;
   font-family: "Franklin Gothic Medium";
